@@ -28,6 +28,25 @@ The following images show the HKS computed for a cow mesh and a Homer mesh using
   </table>
 </div>
 
+The following gif and image shows the output of the second notebook on the application of HKS. The smoothed mesh is transformed via optimisation of the error between the HKS's of the smoothed mesh and ground truth (its original mesh before smoothing). The gif shows the smoothed mesh at each iteration as it slowly transforms into the original mesh.
+
+<div align="center">
+  <table>
+    <tr>
+      <th style="text-align:center">Smoothed mesh</th>
+      <th style="text-align:center">Original mesh</th>
+    </tr>
+    <tr>
+      <td align="center">
+        <img border="0"  src="Images/bunny_gif.gif" width="400" height="400">
+      </td>
+      <td align="center">
+        <img border="0" src="Images/bunny_mesh.png" width="400" height="400">
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## Files:
 - `Images/`: Contains images for the ReadMe file.
 - `heat_kernel_signature.py`: Module containing implementation of the Heat Kernel and Heat Kernel Signature.
